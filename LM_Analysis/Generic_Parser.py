@@ -43,7 +43,7 @@ TARGET_FILES = r'Data/Fin_Cleaned.csv'
 # User defined file pointer to LM dictionary
 MASTER_DICTIONARY_FILE = r'LoughranMcDonald_MasterDictionary_2023.csv'
 # User defined output file
-OUTPUT_FILE = r'D:/Temp/Parser.csv'
+OUTPUT_FILE = r'LM_Analysis/Parser.csv'
 # Setup output
 OUTPUT_FIELDS = ['file name', 'file size', 'number of words', '% negative', '% positive',
                  '% uncertainty', '% litigious', '% strong modal', '% weak modal',
