@@ -2,4 +2,6 @@ Model,Columns,Feature Representation,F1-score,Accuracy,Precision,Recall
 VADER,combined_text,,0.7235494880546075,0.595,0.572972972972973,0.9814814814814816
 Multi-Layer Perceptron,"headline_embeddings, synopsis_embeddings",Word2Vec FinText AI,0.7513226840538036,0.755,0.7585976046701693,0.7513405583173025
 Loughran-McDonald,combined_text,,0.7345454545454545,0.635,0.6047904191616766,0.9351851851851852
-Transformer,text,N/A,0.8888888888888888,0.875,0.8,1.0
+mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis,text,N/A,0.8275862068965517,0.875,0.9230769230769231,0.75
+distilbert-base-uncased,text,N/A,0.7096774193548387,0.775,0.7333333333333333,0.6875
+ProsusAI/finbert,text,N/A,0.8125,0.85,0.8125,0.8125
